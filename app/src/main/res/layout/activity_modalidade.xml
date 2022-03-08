@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ModalidadeActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/blue">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escolha a modalidade"
+        android:textSize="35sp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="15dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/playerPlayer"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:text="Player vs Player"
+        android:background="@color/black"
+        android:layout_marginBottom="35dp"/>
+
+    <Button
+        android:id="@+id/playerMaquina"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:text="Player vs Máquina"
+        android:background="@color/black"
+        />
+</LinearLayout>
