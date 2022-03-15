@@ -1,18 +1,156 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:theme="@style/Theme.AppCompat.NoActionBar"
+    android:background="@color/blue"
+    >
 
-    <TextView
+
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        >
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/posicao1"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:backgroundTint="@color/black"
+        />
+
+
+   <Button
+       android:id="@+id/posicao2"
+       android:layout_width="130dp"
+       android:layout_height="130dp"
+       android:layout_marginRight="5dp"
+       android:backgroundTint="@color/black"
+        />
+
+    <Button
+        android:id="@+id/posicao3"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:backgroundTint="@color/black"
+
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/posicao4"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:backgroundTint="@color/black"
+            />
+
+
+        <Button
+            android:id="@+id/posicao5"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginRight="5dp"
+            android:backgroundTint="@color/black"
+            />
+
+        <Button
+            android:id="@+id/posicao6"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:backgroundTint="@color/black"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/posicao7"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:backgroundTint="@color/black"
+            />
+
+
+        <Button
+            android:id="@+id/posicao8"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginRight="5dp"
+            android:backgroundTint="@color/black"
+            />
+
+        <Button
+            android:id="@+id/posicao9"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:backgroundTint="@color/black"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Player 1"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:layout_marginRight="120dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Player 2"
+            android:textColor="@color/black"
+            android:textSize="40sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/circulo"
+            android:textSize="60dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="120dp"/>
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/icone"
+            android:layout_marginLeft="65dp"
+            android:textSize="60dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
