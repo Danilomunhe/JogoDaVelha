@@ -145,6 +145,7 @@
             android:layout_marginRight="120dp"/>
 
         <TextView
+
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:background="@drawable/icone"
@@ -152,5 +153,11 @@
             android:textSize="60dp" />
 
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/teste"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OLA"/>
 
 </LinearLayout>
