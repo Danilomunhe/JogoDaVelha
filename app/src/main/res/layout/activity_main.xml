@@ -139,7 +139,7 @@
         <TextView
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:background="@drawable/circulo"
+            android:background="@drawable/icone"
             android:textSize="60dp"
             android:layout_marginLeft="50dp"
             android:layout_marginRight="120dp"/>
@@ -148,16 +148,11 @@
 
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:background="@drawable/icone"
+            android:background="@drawable/circulo"
             android:layout_marginLeft="65dp"
             android:textSize="60dp" />
 
     </LinearLayout>
 
-    <TextView
-        android:id="@+id/teste"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="OLA"/>
 
 </LinearLayout>
