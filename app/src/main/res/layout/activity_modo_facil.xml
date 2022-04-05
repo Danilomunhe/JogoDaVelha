@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JogadorVsJogador"
+    android:orientation="vertical"
+    android:theme="@style/Theme.AppCompat.NoActionBar"
+    android:background="@color/blue"
+    >
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        >
+
+        <Button
+            android:id="@+id/posicao1_facil"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:backgroundTint="@color/black"
+            />
+
+
+        <Button
+            android:id="@+id/posicao2_facil"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginRight="5dp"
+            android:backgroundTint="@color/black"
+            />
+
+        <Button
+            android:id="@+id/posicao3_facil"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:backgroundTint="@color/black"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/posicao4_facil"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:backgroundTint="@color/black"
+            />
+
+
+        <Button
+            android:id="@+id/posicao5_facil"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginRight="5dp"
+            android:backgroundTint="@color/black"
+            />
+
+        <Button
+            android:id="@+id/posicao6_facil"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:backgroundTint="@color/black"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/posicao7_facil"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:backgroundTint="@color/black"
+            />
+
+
+        <Button
+            android:id="@+id/posicao8_facil"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginRight="5dp"
+            android:backgroundTint="@color/black"
+            />
+
+        <Button
+            android:id="@+id/posicao9_facil"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:backgroundTint="@color/black"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Player 1"
+            android:textColor="@color/black"
+            android:textSize="35sp"
+            android:layout_marginRight="120dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Máquina"
+            android:textColor="@color/black"
+            android:textSize="35sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/marca"
+            android:textSize="60dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="120dp"/>
+
+        <TextView
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/circulo"
+            android:layout_marginLeft="65dp"
+            android:textSize="60dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

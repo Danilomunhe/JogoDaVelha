@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".JogadorVsJogador"
     android:orientation="vertical"
     android:theme="@style/Theme.AppCompat.NoActionBar"
     android:background="@color/blue"
@@ -139,7 +139,7 @@
         <TextView
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:background="@drawable/icone"
+            android:background="@drawable/marca"
             android:textSize="60dp"
             android:layout_marginLeft="50dp"
             android:layout_marginRight="120dp"/>

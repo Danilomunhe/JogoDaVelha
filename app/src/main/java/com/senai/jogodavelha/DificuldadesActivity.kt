@@ -13,7 +13,7 @@ class DificuldadesActivity : AppCompatActivity() {
         val facil = findViewById<Button>(R.id.facil)
         val medio = findViewById<Button>(R.id.medio)
         val dificil = findViewById<Button>(R.id.dificil)
-        val intent = Intent(this, MainActivity::class.java)
+        val intent = Intent(this, ModoFacil::class.java)
 
         facil.setOnClickListener(){
             startActivity(intent)

@@ -13,7 +13,7 @@ class ModalidadeActivity : AppCompatActivity() {
         val player = findViewById<Button>(R.id.playerPlayer)
         val maquina = findViewById<Button>(R.id.playerMaquina)
         val intent = Intent (this, DificuldadesActivity::class.java)
-        val intent2 = Intent (this, MainActivity::class.java)
+        val intent2 = Intent (this, JogadorVsJogador::class.java)
 
         player.setOnClickListener(){
             startActivity(intent2)

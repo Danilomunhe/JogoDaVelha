@@ -3,17 +3,15 @@ package com.senai.jogodavelha
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import android.widget.EditText
-import android.widget.TextView
 import android.widget.Toast
-import kotlinx.android.synthetic.main.activity_main.*
-import java.io.Console
+import kotlinx.android.synthetic.main.activity_jogador_vs_jogador.*
 
-class MainActivity : AppCompatActivity() {
+
+class JogadorVsJogador : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_jogador_vs_jogador)
 
         val posicao1 = findViewById<Button>(R.id.posicao1)
         val posicao2 = findViewById<Button>(R.id.posicao2)
